@@ -1,8 +1,7 @@
-```markdown
 # 🖥️ Keylogger Software
 
 The **Keylogger Software** script captures and logs every keystroke made on the keyboard to a file named `key_log.txt`.  
-This tool is designed strictly for educational and security research purposes-**never use it on any system without explicit permission**.
+This tool is designed strictly for educational and security research purposes - **never use it on any system without explicit permission**.
 
 **Project directory:**  
 [https://github.com/pulasthi-ranabahu/Pinnacle_Labs_Cyber_Security/tree/main/Keylogger_Software](https://github.com/pulasthi-ranabahu/Pinnacle_Labs_Cyber_Security/tree/main/Keylogger_Software)
@@ -11,10 +10,10 @@ This tool is designed strictly for educational and security research purposes-**
 
 ## 📦 Features
 
-- Logs all keystrokes to a local file (`key_log.txt`)
-- Captures both regular and special keys (Enter, Space, etc.)
-- Runs in the background and stops when you press the `ESC` key
-- Simple, minimal, and beginner-friendly Python code
+- **Logs all keystrokes** to a local file (`key_log.txt`)
+- **Captures both regular and special keys** (Enter, Space, etc.)
+- **Runs in the background** and stops when you press the `ESC` key
+- **Simple, minimal, and beginner-friendly** Python code
 
 ---
 
@@ -42,23 +41,26 @@ python keylogger.py
 ```
 
 - The script will start logging all keystrokes to `key_log.txt` in the same directory.
-- To stop the keylogger, press the `ESC` key.
+- To stop the keylogger, press the **ESC** key.
 
 ---
 
 ## 🔍 How It Works
 
-- The script uses the `pynput` library to listen for keyboard events.
+- The script uses the **pynput** library to listen for keyboard events.
 - Every key press is appended to `key_log.txt`.
-- Special keys (like Enter, Space, etc.) are recorded in a readable format.
+- **Special keys** (like Enter, Space, etc.) are recorded in a readable format.
 
 ---
 
 ## 🛠️ Troubleshooting
 
-- **Permission denied / File not found:** Make sure you have write permissions in the script directory.
-- **ImportError:** If you see errors like `Import "pynput" could not be resolved`, ensure you installed `pynput` with the correct Python interpreter and restart your editor.
-- **Script doesn't stop:** Only the `ESC` key will stop the script. If running in a terminal where `ESC` isn't captured, try another terminal or restart the shell.
+- **Permission denied / File not found:**  
+  Make sure you have write permissions in the script directory.
+- **ImportError:**  
+  If you see errors like `Import "pynput" could not be resolved`, ensure you installed `pynput` with the correct Python interpreter and restart your editor.
+- **Script doesn't stop:**  
+  Only the **ESC** key will stop the script. If running in a terminal where `ESC` isn't captured, try another terminal or restart the shell.
 
 ---
 
@@ -76,4 +78,6 @@ This project is licensed under the MIT License.
 
 ---
 
-**Make the most of your learning-build, understand, and secure! 🚀🔒**
+**Make the most of your learning - build, understand, and secure! 🚀🔒**
+
+---
