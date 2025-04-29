@@ -1,11 +1,12 @@
-Here is an updated `README.md` file for your repository, **including a troubleshooting section for import errors** like those shown in your screenshot. This will help users resolve common issues with missing Python packages in VSCode and ensure your internship project is easy to set up and use.
+Here is a **general README.md** file for your Pinnacle Labs Cyber Security Internship repository.  
+It covers all four main tasks, includes a troubleshooting section for import errors (as shown in your screenshot), and follows best practices for clarity and structure.
 
 ---
 
 # 🛡️ Pinnacle Labs Cyber Security Internship 2025
 
 Welcome to the official repository for the **Pinnacle Labs 2025 Cyber Security Internship Program**!  
-This repo contains all the project scripts and tools you need to complete your internship tasks and showcase your cybersecurity skills.
+This repository contains all the scripts and tools you need to complete your internship tasks and showcase your cybersecurity skills.
 
 **Repository URL:**  
 `https://github.com/pulasthi-ranabahu/Pinnacle_Labs_Cyber_Security`
@@ -14,16 +15,15 @@ This repo contains all the project scripts and tools you need to complete your i
 
 ## 📚 Table of Contents
 
-- About
-- Features
-- Installation
-- Usage
-- Troubleshooting Import Errors
-- Internship Tasks
-- Submission Guidelines
-- Contributing
-- License
-- Contact
+- [About](#about)
+- [Features & Task List](#features--task-list)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Troubleshooting Import Errors](#troubleshooting-import-errors)
+- [Submission Guidelines](#submission-guidelines)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 ---
 
@@ -35,12 +35,14 @@ You can use these tools individually or as part of a larger security toolkit.
 
 ---
 
-## 🚀 Features
+## 🚀 Features & Task List
 
-- **Text Encryption**: Encrypt and decrypt text using AES, DES, and RSA.
-- **Keylogger Software**: Research tool for monitoring keystrokes and understanding keylogger threats.
-- **Image Encryption**: Secure image files to protect visual data.
-- **Password Analyzer**: Evaluate and improve password strength.
+| Task               | Description                                                                 |
+|--------------------|-----------------------------------------------------------------------------|
+| Text Encryption    | Encrypt and decrypt text using AES, DES, and RSA algorithms.                |
+| Keylogger Software | Track keystrokes and monitor user input for security research.              |
+| Image Encryption   | Secure image files with encryption to protect visual data.                  |
+| Password Analyzer  | Evaluate password strength and get recommendations for better security.      |
 
 ---
 
@@ -62,27 +64,24 @@ You can use these tools individually or as part of a larger security toolkit.
 
 ## 💡 Usage
 
-Run any script from the command line. For example, to use the Text Encrypter:
-
-```bash
-python Text_Encrypter.py
-```
-
-Follow the interactive prompts for each tool.  
-Check each script's README for detailed instructions and examples.
+- Run any script from the command line. Example for the Text Encrypter:
+  ```bash
+  python Text_Encrypter.py
+  ```
+- Follow the interactive prompts for each tool.
+- Check each script's README for detailed instructions and examples.
 
 ---
 
-## 🛠️ Troubleshooting Import Errors in VSCode
+## 🛠️ Troubleshooting Import Errors
 
 If you see warnings like  
 `Import "cryptography.hazmat.primitives" could not be resolved`  
 or  
 `Import "Crypto.Cipher" could not be resolved`  
-please follow these steps:
+in VSCode or your terminal, follow these steps:
 
 1. **Install the required packages**  
-   Open your terminal and run:
    ```bash
    pip install cryptography pycryptodome
    ```
@@ -106,20 +105,8 @@ please follow these steps:
    ```
    If you see no errors, your environment is set up.
 
-5. **Still having issues?**  
-   - Make sure you are not running import statements directly in PowerShell or CMD.  
-   - Only run them in a `.py` script or in the Python interactive shell (`python` command).
-
----
-
-## 🏆 Internship Tasks
-
-| Task               | Description                                            |
-|--------------------|-------------------------------------------------------|
-| Text Encryption    | Encrypt text with AES, DES, RSA                       |
-| Keylogger Software | Research tool for keystroke monitoring                |
-| Image Encryption   | Secure image files with encryption algorithms         |
-| Password Analyzer  | Analyze and improve password security                 |
+5. **Do not run import statements in PowerShell or CMD directly**  
+   Only use them in a `.py` script or in the Python interactive shell (`python` command).
 
 ---
 
