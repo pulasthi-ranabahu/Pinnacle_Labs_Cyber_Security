@@ -1,8 +1,3 @@
-Here is a **general README.md** file for your Pinnacle Labs Cyber Security Internship repository.  
-It covers all four main tasks, includes a troubleshooting section for import errors (as shown in your screenshot), and follows best practices for clarity and structure.
-
----
-
 # 🛡️ Pinnacle Labs Cyber Security Internship 2025
 
 Welcome to the official repository for the **Pinnacle Labs 2025 Cyber Security Internship Program**!  
@@ -56,9 +51,9 @@ You can use these tools individually or as part of a larger security toolkit.
 
 2. **Install dependencies:**
    ```bash
-   pip install cryptography pycryptodome
+   pip install cryptography pycryptodome pynput
    ```
-   *Each script may have additional dependencies; see individual script READMEs for details.*
+   *Some scripts may have additional dependencies; see individual script READMEs for details.*
 
 ---
 
@@ -66,7 +61,7 @@ You can use these tools individually or as part of a larger security toolkit.
 
 - Run any script from the command line. Example for the Text Encrypter:
   ```bash
-  python Text_Encrypter.py
+  python Text_Encrypter/Text_Encrypter.py
   ```
 - Follow the interactive prompts for each tool.
 - Check each script's README for detailed instructions and examples.
@@ -83,7 +78,7 @@ in VSCode or your terminal, follow these steps:
 
 1. **Install the required packages**  
    ```bash
-   pip install cryptography pycryptodome
+   pip install cryptography pycryptodome pynput
    ```
 
 2. **Select the correct Python interpreter in VSCode**  
@@ -102,6 +97,7 @@ in VSCode or your terminal, follow these steps:
    ```python
    from cryptography.hazmat.primitives.ciphers import Cipher
    from Crypto.Cipher import DES
+   from pynput import keyboard
    ```
    If you see no errors, your environment is set up.
 
@@ -128,5 +124,3 @@ This project is licensed under the MIT License.
 For questions or support, open an issue or reach out to your internship coordinator.
 
 ---
-
-**Make the most of your internship-learn, build, and secure! 🚀🔒**
