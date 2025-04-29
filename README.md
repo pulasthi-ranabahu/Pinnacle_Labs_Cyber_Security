@@ -4,21 +4,21 @@ Welcome to the official repository for the **Pinnacle Labs 2025 Cyber Security I
 This repo contains all the project scripts and tools you need to complete your internship tasks and showcase your cybersecurity skills.
 
 **Repository URL:**  
-`https://github.com/pulasthi-ranabahu/Pinnacle_Labs_Cyber_Security`[2]
+`https://github.com/pulasthi-ranabahu/Pinnacle_Labs_Cyber_Security`
 
 ---
 
 ## 📚 Table of Contents
 
-- [About](#about)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Internship Tasks](#internship-tasks)
-- [Submission Guidelines](#submission-guidelines)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- About
+- Features
+- Installation
+- Usage
+- Internship Tasks
+- Submission Guidelines
+- Contributing
+- License
+- Contact
 
 ---
 
@@ -26,7 +26,7 @@ This repo contains all the project scripts and tools you need to complete your i
 
 This repository is your one-stop resource for completing the Pinnacle Labs internship tasks.  
 Each script is designed for practical learning, security research, and demonstration.  
-You can use these tools individually or as part of a larger security toolkit[1][2].
+You can use these tools individually or as part of a larger security toolkit.
 
 ---
 
@@ -82,8 +82,8 @@ Check each script's README for detailed instructions and examples.
 - Complete at least **1** and up to **3** tasks to be eligible for your certificate.
 - Record a screen capture or video demo of your project.
 - Share your video on LinkedIn and tag Pinnacle Labs.
-- Submit your LinkedIn post URL in the official submission form (available from **April 30**; deadline **May 10**).
-- **No deadline extensions will be given**[1].
+- Submit your LinkedIn post URL in the official submission form (available from April 30; deadline May 10).
+- No deadline extensions will be given.
 
 ---
 
@@ -110,7 +110,6 @@ For questions or support, open an issue or reach out to your internship coordina
 
 Citations:
 [1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/64387307/6ccab0ea-b765-4d65-91ac-8c6bacb4436a/Cybersecurity_APR25P3.pdf
-[2] https://github.com/pulasthi-ranabahu/Pinnacle_Labs_Cyber_Security
 
 ---
 Answer from Perplexity: pplx.ai/share
