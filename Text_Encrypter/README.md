@@ -1,4 +1,3 @@
-```markdown
 # 🛡️ Text Encrypter
 
 This project is part of the Pinnacle Labs 2025 Cyber Security Internship Program.  
@@ -21,13 +20,13 @@ The **Text Encrypter** script allows you to securely encrypt and decrypt text us
 ## ⚙️ Installation
 
 1. **Clone the repository:**
-   ```
+   ```bash
    git clone https://github.com/pulasthi-ranabahu/Pinnacle_Labs_Cyber_Security
    cd Pinnacle_Labs_Cyber_Security/Text_Encrypter
    ```
 
 2. **Install dependencies:**
-   ```
+   ```bash
    pip install cryptography pycryptodome
    ```
 
@@ -37,7 +36,7 @@ The **Text Encrypter** script allows you to securely encrypt and decrypt text us
 
 Run the script from the command line:
 
-```
+```bash
 python Text_Encrypter.py
 ```
 
@@ -56,7 +55,7 @@ or
 in VSCode or your terminal, follow these steps:
 
 1. **Install the required packages:**
-   ```
+   ```bash
    pip install cryptography pycryptodome
    ```
 
@@ -70,7 +69,6 @@ in VSCode or your terminal, follow these steps:
    - Only use them in a `.py` script or inside the Python interactive shell (`python` command).
 
 ---
-
 
 ## 📄 License
 
