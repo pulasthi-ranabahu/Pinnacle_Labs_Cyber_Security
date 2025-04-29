@@ -1,3 +1,7 @@
+Here is an updated `README.md` file for your repository, **including a troubleshooting section for import errors** like those shown in your screenshot. This will help users resolve common issues with missing Python packages in VSCode and ensure your internship project is easy to set up and use.
+
+---
+
 # 🛡️ Pinnacle Labs Cyber Security Internship 2025
 
 Welcome to the official repository for the **Pinnacle Labs 2025 Cyber Security Internship Program**!  
@@ -14,6 +18,7 @@ This repo contains all the project scripts and tools you need to complete your i
 - Features
 - Installation
 - Usage
+- Troubleshooting Import Errors
 - Internship Tasks
 - Submission Guidelines
 - Contributing
@@ -41,15 +46,17 @@ You can use these tools individually or as part of a larger security toolkit.
 
 ## ⚙️ Installation
 
-Clone the repository and install required dependencies:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/pulasthi-ranabahu/Pinnacle_Labs_Cyber_Security
+   cd Pinnacle_Labs_Cyber_Security
+   ```
 
-```bash
-git clone https://github.com/pulasthi-ranabahu/Pinnacle_Labs_Cyber_Security
-cd Pinnacle_Labs_Cyber_Security
-pip install -r requirements.txt
-```
-
-*Each script may have additional dependencies; see individual script READMEs for details.*
+2. **Install dependencies:**
+   ```bash
+   pip install cryptography pycryptodome
+   ```
+   *Each script may have additional dependencies; see individual script READMEs for details.*
 
 ---
 
@@ -58,11 +65,50 @@ pip install -r requirements.txt
 Run any script from the command line. For example, to use the Text Encrypter:
 
 ```bash
-python text_encrypter.py
+python Text_Encrypter.py
 ```
 
 Follow the interactive prompts for each tool.  
 Check each script's README for detailed instructions and examples.
+
+---
+
+## 🛠️ Troubleshooting Import Errors in VSCode
+
+If you see warnings like  
+`Import "cryptography.hazmat.primitives" could not be resolved`  
+or  
+`Import "Crypto.Cipher" could not be resolved`  
+please follow these steps:
+
+1. **Install the required packages**  
+   Open your terminal and run:
+   ```bash
+   pip install cryptography pycryptodome
+   ```
+
+2. **Select the correct Python interpreter in VSCode**  
+   - Click the Python version shown in the bottom bar of VSCode.
+   - Choose the interpreter where you installed the packages (e.g., your virtual environment or system Python).
+
+3. **Restart VSCode**  
+   Sometimes VSCode needs to be restarted to recognize new packages.
+
+4. **Test your imports**  
+   Open a terminal and run:
+   ```bash
+   python
+   ```
+   Then type:
+   ```python
+   from cryptography.hazmat.primitives.ciphers import Cipher
+   from Crypto.Cipher import DES
+   ```
+   If you see no errors, your environment is set up.
+
+5. **Still having issues?**  
+   - Make sure you are not running import statements directly in PowerShell or CMD.  
+   - Only run them in a `.py` script or in the Python interactive shell (`python` command).
 
 ---
 
@@ -74,16 +120,6 @@ Check each script's README for detailed instructions and examples.
 | Keylogger Software | Research tool for keystroke monitoring                |
 | Image Encryption   | Secure image files with encryption algorithms         |
 | Password Analyzer  | Analyze and improve password security                 |
-
----
-
-## 📢 Submission Guidelines
-
-- Complete at least **1** and up to **3** tasks to be eligible for your certificate.
-- Record a screen capture or video demo of your project.
-- Share your video on LinkedIn and tag Pinnacle Labs.
-- Submit your LinkedIn post URL in the official submission form (available from April 30; deadline May 10).
-- No deadline extensions will be given.
 
 ---
 
@@ -107,9 +143,3 @@ For questions or support, open an issue or reach out to your internship coordina
 ---
 
 **Make the most of your internship-learn, build, and secure! 🚀🔒**
-
-Citations:
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/64387307/6ccab0ea-b765-4d65-91ac-8c6bacb4436a/Cybersecurity_APR25P3.pdf
-
----
-Answer from Perplexity: pplx.ai/share
