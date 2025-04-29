@@ -35,7 +35,7 @@ pip install cryptography pycryptodome
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/text-encrypter.git
+   git clone https://github.com/pulasthi-ranabahu/Pinnacle_Labs_Cyber_Security
    cd text-encrypter
    ```
 
@@ -99,5 +99,3 @@ For questions or support, please reach out via GitHub Issues or contact your int
 Citations:
 [1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/64387307/6ccab0ea-b765-4d65-91ac-8c6bacb4436a/Cybersecurity_APR25P3.pdf
 
----
-Answer from Perplexity: pplx.ai/share
